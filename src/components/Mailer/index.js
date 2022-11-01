@@ -12,7 +12,6 @@ import {
   Img,
 } from "./MailerElements";
 import emailjs from "emailjs-com";
-import Footer from "../Footer/index";
 import Navbar from "../Navbar/index";
 
 const Mailer = () => {
@@ -65,7 +64,6 @@ const Mailer = () => {
           </MailerRow>
         </MailerWrapper>
       </MailerContainer>
-      <Footer />
     </>
   );
 };

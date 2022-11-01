@@ -1,14 +1,13 @@
 import React from "react";
 import Footer from "../components/Footer";
-import Mailer from "../components/Mailer";
 
-const ContactPage = () => {
+const TemoignagesPage = () => {
   return (
     <>
-      <Mailer />
+      <h1>TemoignagesPage</h1>
       <Footer />
     </>
   );
 };
 
-export default ContactPage;
+export default TemoignagesPage;

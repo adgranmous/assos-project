@@ -56,6 +56,7 @@ function Navbar({ toggle }) {
                 >
                   About
                 </NavLinks>
+                {/* <NavBtnLink to="/histoire">About</NavBtnLink> */}
               </NavItem>
               <NavItem>
                 <NavLinks
