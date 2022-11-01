@@ -15,8 +15,6 @@ import {
   Img,
 } from "./InfoElements";
 
-// import SVG1 from "../../images/svg-1.svg";
-
 const InfoSection = ({
   lightBg,
   id,

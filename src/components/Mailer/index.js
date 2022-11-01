@@ -1,13 +1,19 @@
 import {
   MailerContainer,
   MailerWrapper,
-  MailerH1,
+  MailerRow,
+  MailerH2,
   MailerForm,
-  MailerLabel,
+  MailerButton,
   MailerInput,
   MailerTextArea,
+  Column1,
+  Column2,
+  Img,
 } from "./MailerElements";
 import emailjs from "emailjs-com";
+import Footer from "../Footer/index";
+import Navbar from "../Navbar/index";
 
 const Mailer = () => {
   const sendEmail = (e) => {
@@ -32,20 +38,34 @@ const Mailer = () => {
 
   return (
     <>
+      <Navbar />
       <MailerContainer>
         <MailerWrapper>
-          <MailerH1>Contact form</MailerH1>
-          <MailerForm onSubmit={sendEmail}>
-            <MailerLabel>name</MailerLabel>
-            <MailerInput type="text" name="name" />
-            <MailerLabel>Email</MailerLabel>
-            <MailerInput type="email" name="userEmail" />
-            <MailerLabel>Message</MailerLabel>
-            <MailerTextArea name="message" rows="4" />
-            <MailerInput type="submit" value="Envoyer" />
-          </MailerForm>
+          <MailerRow>
+            <Column1>
+              <MailerH2>ECRIVEZ NOUS</MailerH2>
+              <MailerForm onSubmit={sendEmail}>
+                <MailerInput type="text" placeholder="Nom" name="name" />
+                <MailerInput
+                  type="email"
+                  placeholder="Adresse email"
+                  name="userEmail"
+                />
+                <MailerTextArea
+                  name="message"
+                  placeholder="Message..."
+                  rows="4"
+                />
+                <MailerButton type="submit" value="Envoyer" />
+              </MailerForm>
+            </Column1>
+            <Column2>
+              <Img src={require("../../images/svg-6.svg").default} />
+            </Column2>
+          </MailerRow>
         </MailerWrapper>
       </MailerContainer>
+      <Footer />
     </>
   );
 };
