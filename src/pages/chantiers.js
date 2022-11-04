@@ -1,10 +1,14 @@
 import React from "react";
 import Footer from "../components/Footer";
+import InfoSection from "../components/InfoSection";
+import { homeObjOne } from "../components/InfoSection/Data";
+import TheNavBar from "../components/TheNavbar";
 
 const ChantiersPage = () => {
   return (
     <>
-      <h1>ChantiersPage</h1>
+      <TheNavBar />
+      <InfoSection {...homeObjOne} />
       <Footer />
     </>
   );

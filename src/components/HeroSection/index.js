@@ -44,7 +44,7 @@ const HeroSection = () => {
             exact="true"
             offset={-80}
           >
-            start now {hover ? <ArrowForward /> : <ArrowRight />}
+            Nous rejoindre {hover ? <ArrowForward /> : <ArrowRight />}
           </Button>
         </HeroBtnWrapper>
       </HeroContent>

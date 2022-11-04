@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import Chantiers from "../components/Chantiers";
 import Footer from "../components/Footer";
 import HeroSection from "../components/HeroSection";
@@ -9,20 +9,12 @@ import {
   homeObjThree,
   homeObjFour,
 } from "../components/InfoSection/Data";
-import Navbar from "../components/Navbar/index";
-import Sidebar from "../components/SideBar/index";
+import TheNavBar from "../components/TheNavbar";
 
 function Home() {
-  const [isOpen, setIsOpen] = useState(false);
-
-  const toggle = () => {
-    setIsOpen(!isOpen);
-  };
-
   return (
     <>
-      <Sidebar isOpen={isOpen} toggle={toggle} />
-      <Navbar toggle={toggle} />
+      <TheNavBar />
       <HeroSection />
       <InfoSection {...homeObjOne} />
       <InfoSection {...homeObjTwo} />

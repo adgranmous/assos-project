@@ -12,9 +12,12 @@ import {
   Img,
 } from "./MailerElements";
 import emailjs from "emailjs-com";
-import Navbar from "../Navbar/index";
+import { useNavigate } from "react-router-dom";
 
 const Mailer = () => {
+  const navigate = useNavigate();
+  navigate("/chantiers");
+
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -37,7 +40,6 @@ const Mailer = () => {
 
   return (
     <>
-      <Navbar />
       <MailerContainer>
         <MailerWrapper>
           <MailerRow>
@@ -55,6 +57,7 @@ const Mailer = () => {
                   placeholder="Message..."
                   rows="4"
                 />
+
                 <MailerButton type="submit" value="Envoyer" />
               </MailerForm>
             </Column1>

@@ -33,6 +33,8 @@ function Navbar({ toggle }) {
     scroll.scrollToTop();
   };
 
+  
+
   return (
     <>
       <IconContext.Provider value={{ color: "#fff" }}>
@@ -56,11 +58,11 @@ function Navbar({ toggle }) {
                 >
                   About
                 </NavLinks>
-                {/* <NavBtnLink to="/histoire">About</NavBtnLink> */}
               </NavItem>
               <NavItem>
                 <NavLinks
                   to="/chantiers"
+                  
                   smooth={true}
                   duration={500}
                   spy={true}
