@@ -1,15 +1,15 @@
 import React from "react";
-import Chantiers from "../components/Chantiers";
-import Footer from "../components/Footer";
-import HeroSection from "../components/HeroSection";
-import InfoSection from "../components/InfoSection";
+import Chantiers from "../components/CardsComponent/CardsComponent";
+import Footer from "../components/Footer/Footer";
+import HeroSection from "../components/HeroSection/HeroSection";
+import InfoSection from "../components/InfoSection/InfoSection";
 import {
   homeObjOne,
   homeObjTwo,
   homeObjThree,
   homeObjFour,
 } from "../components/InfoSection/Data";
-import TheNavBar from "../components/TheNavbar";
+import TheNavBar from "../components/TheNavbar/TheNavBar";
 
 function Home() {
   return (

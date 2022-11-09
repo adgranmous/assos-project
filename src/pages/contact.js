@@ -1,7 +1,7 @@
 import React from "react";
-import Footer from "../components/Footer";
-import Mailer from "../components/Mailer";
-import TheNavBar from "../components/TheNavbar";
+import Footer from "../components/Footer/Footer";
+import Mailer from "../components/Mailer/Mailer";
+import TheNavBar from "../components/TheNavbar/TheNavBar";
 
 const ContactPage = () => {
   return (

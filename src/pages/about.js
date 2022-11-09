@@ -1,7 +1,7 @@
 import React from "react";
-import TheNavBar from "../components/TheNavbar";
-import Footer from "../components/Footer";
-import InfoSection from "../components/InfoSection";
+import TheNavBar from "../components/TheNavbar/TheNavBar";
+import Footer from "../components/Footer/Footer";
+import InfoSection from "../components/InfoSection/InfoSection";
 import { homeObjOne } from "../components/InfoSection/Data";
 
 const AboutPage = () => {

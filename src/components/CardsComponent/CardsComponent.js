@@ -10,7 +10,7 @@ import {
   ChantiersCard,
   ChantiersIcon,
   ChantiersP,
-} from "./ServicesElements";
+} from "./CardsComponentElements";
 
 const Chantiers = () => {
   return (

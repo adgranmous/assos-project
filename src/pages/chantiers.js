@@ -1,8 +1,8 @@
 import React from "react";
-import Footer from "../components/Footer";
-import InfoSection from "../components/InfoSection";
+import Footer from "../components/Footer/Footer";
+import InfoSection from "../components/InfoSection/InfoSection";
 import { homeObjOne } from "../components/InfoSection/Data";
-import TheNavBar from "../components/TheNavbar";
+import TheNavBar from "../components/TheNavbar/TheNavBar";
 
 const ChantiersPage = () => {
   return (
