@@ -33,8 +33,6 @@ function Navbar({ toggle }) {
     scroll.scrollToTop();
   };
 
-  
-
   return (
     <>
       <IconContext.Provider value={{ color: "#fff" }}>
@@ -49,23 +47,10 @@ function Navbar({ toggle }) {
             <NavMenu>
               <NavItem>
                 <NavLinks
-                  to="/about"
-                  smooth={true}
-                  duration={500}
-                  spy={true}
-                  exact="true"
-                  offset={-80}
-                >
-                  About
-                </NavLinks>
-              </NavItem>
-              <NavItem>
-                <NavLinks
                   to="/chantiers"
-                  
-                  smooth={true}
+                  smooth={true.toString()}
                   duration={500}
-                  spy={true}
+                  spy={true.toString()}
                   exact="true"
                   offset={-80}
                 >
@@ -75,9 +60,9 @@ function Navbar({ toggle }) {
               <NavItem>
                 <NavLinks
                   to="/histoire"
-                  smooth={true}
+                  smooth={true.toString()}
                   duration={500}
-                  spy={true}
+                  spy={true.toString()}
                   exact="true"
                   offset={-80}
                 >
@@ -87,9 +72,9 @@ function Navbar({ toggle }) {
               <NavItem>
                 <NavLinks
                   to="/temoignages"
-                  smooth={true}
+                  smooth={true.toString()}
                   duration={500}
-                  spy={true}
+                  spy={true.toString()}
                   exact="true"
                   offset={-80}
                 >
@@ -98,7 +83,7 @@ function Navbar({ toggle }) {
               </NavItem>
             </NavMenu>
             <NavBtn>
-              <NavBtnLink to="/contact">Nous contacter</NavBtnLink>
+              <NavBtnLink to="/contact">Contact</NavBtnLink>
             </NavBtn>
           </NavbarContainer>
         </Nav>

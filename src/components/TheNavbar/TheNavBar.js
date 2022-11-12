@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Navbar from "./Navbar/index";
+import Navbar from "./Navbar/Navbar";
 import SideBar from "./SideBar/SideBar";
 
 const TheNavBar = () => {

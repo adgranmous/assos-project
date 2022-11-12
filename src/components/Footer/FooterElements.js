@@ -6,10 +6,9 @@ export const FooterContainer = styled.footer`
 `;
 
 export const FooterWrap = styled.div`
-  padding: 48px 24px;
+  padding: 18px 24px;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   max-width: 1100px;
   margin: 0 auto;
@@ -17,48 +16,32 @@ export const FooterWrap = styled.div`
 
 export const FooterLinksContainer = styled.div`
   display: flex;
-  justify-content: center;
-
-  @media screen and (max-width: 820px) {
-    padding-top: 32px;
-  }
+  justify-content: space-between;
 `;
 
-export const FooterLinksWrapper = styled.div`
-  display: flex;
-
-  @media screen and (max-width: 820px) {
-    flex-direction: column;
-  }
-`;
+export const FooterLinksWrapper = styled.div``;
 
 export const FooterLinkItems = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  margin: 16px;
-  text-align: left;
-  width: 160px;
-  box-sizing: border-box;
   color: #fff;
+  border-left: solid 1px;
+  border-right: solid 1px;
 
-  @media screen and (max-width: 420px) {
+  @media screen and (max-width: 720px) {
     margin: 0;
     padding: 10px;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    border: none;
   }
-`;
-
-export const FooterLinkTitle = styled.h1`
-  font-size: 14px;
-  margin-bottom: 16px;
 `;
 
 export const FooterLink = styled(Link)`
   color: #fff;
   text-decoration: none;
   margin-bottom: 0.5rem;
-  font-size: 14px;
+  margin: 20px;
+  font-size: small;
 
   &:hover {
     color: #01bf71;
@@ -66,48 +49,37 @@ export const FooterLink = styled(Link)`
   }
 `;
 
-export const SocialMedia = styled.section`
-  max-width: 1000px;
-  width: 100%;
-`;
-
-export const SocialMediaWrap = styled.div`
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  max-width: 1100px;
-  margin: 40px auto 0 auto;
-
-  @media screen and (max-width: 820px) {
-    flex-direction: column;
-  }
-`;
-
 export const SocialLogo = styled(Link)`
   color: #fff;
-  justify-self: start;
   cursor: pointer;
   text-decoration: none;
   font-size: 1.5rem;
-  display: flex;
-  align-items: center;
-  margin-bottom: 15px;
   font-weight: bold;
 `;
 
 export const WebsiteRights = styled.small`
   color: #fff;
-  margin-bottom: 16px;
+  font-size: x-small;
 `;
 
-export const SocialIcons = styled.div`
+export const DevBy = styled.div`
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 240px;
+  justify-content: flex-end;
+  color: #3a4656;
+  padding: 0px 30px 10px 0px;
 `;
+export const DevP = styled.p`
+  padding-right: 6px;
+  font-weight: bold;
+  font-size: 12px;
+`;
+export const DevLogo = styled.a`
+  font-size: 12px;
+  transform: rotate(-0.15turn);
 
-export const SocialIconLink = styled.a`
-  color: #fff;
-  font-size: 24px;
+  &:hover {
+    transition: all 0.2s ease-in-out;
+    color: #01bf71;
+    -webkit-transform: scale(1.15);
+  }
 `;

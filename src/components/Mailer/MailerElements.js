@@ -1,6 +1,8 @@
 import styled from "styled-components";
 
-export const MailerContainer = styled.div``;
+export const MailerContainer = styled.div`
+  min-height: 100vh;
+`;
 export const MailerWrapper = styled.div`
   padding: 50px;
   margin: 50px;
@@ -56,6 +58,7 @@ export const MailerInput = styled.input`
 `;
 export const MailerTextArea = styled.textarea`
   width: 100%;
+  max-width: 450px;
   resize: none;
   height: 150px;
   border-radius: 10px;
@@ -90,4 +93,10 @@ border-radius: 50px;
     transition:all 0.2s ease-in-out;
     background: ${({ primary }) => (primary ? "#fff" : "#01BF71")};
   }
+`;
+
+export const BlackBox = styled.div`
+  background-color: #0c0c0c;
+  height: 160px;
+  width:100%;
 `;

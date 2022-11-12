@@ -4,15 +4,15 @@ export const InfoContainer = styled.div`
   color: #fff;
   background: ${({ lightBg }) => (lightBg ? "#f9f9f9" : "#010606")};
 
-  @media screen and (max-width: 768px) {
-    padding: 100px 0;
+  @media screen and (max-width: 700px) {
+    padding: 50px 0;
   }
 `;
 
 export const InfoWrapper = styled.div`
   display: grid;
   z-index: 1;
-  height: 860px;
+  min-height: 70vh;
   width: 100%;
   max-width: 1100px;
   margin-right: auto;
@@ -28,28 +28,27 @@ export const InfoRow = styled.div`
   grid-template-areas: ${({ imgStart }) =>
     imgStart ? `'col2 col1'` : `'col1 col2'`};
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 700px) {
     grid-template-areas: ${({ imgStart }) =>
       imgStart ? `'col1' 'col2'` : `'col1 col1' 'col2 col2'`};
   }
 `;
 
 export const Column1 = styled.div`
-  margin-bottom: 15px;
+  // margin-bottom: 15px;
   padding: 0 15px;
   grid-area: col1;
 `;
 
 export const Column2 = styled.div`
-  margin-bottom: 15px;
+  // margin-bottom: 15px;
   padding: 0 15px;
   grid-area: col2;
 `;
 
 export const TextWrapper = styled.div`
   max-width: 540px;
-  padding-top: à;
-  padding-bottom: 60px;
+  // padding-bottom: 60px;
 `;
 
 export const TopLine = styled.p`
@@ -79,6 +78,7 @@ export const Subtitle = styled.p`
   margin-bottom: 35px;
   font-size: 18px;
   line-height: 24px;
+  text-align: justify;
   color: ${({ darkText }) => (darkText ? "#010606" : "#fff")};
 `;
 
@@ -96,4 +96,9 @@ export const Img = styled.img`
   width: 100%;
   margin: 0 0 10px 0;
   padding-right: 0;
+  padding-bottom: 15px;
+
+  @media screen and (max-width: 700px) {
+    width: 60%;
+  }
 `;

@@ -10,6 +10,7 @@ import {
   Column1,
   Column2,
   Img,
+  BlackBox,
 } from "./MailerElements";
 // import emailjs from "emailjs-com";
 
@@ -42,6 +43,7 @@ const Mailer = () => {
   return (
     <>
       <MailerContainer>
+        <BlackBox />
         <MailerWrapper>
           <MailerRow>
             <Column1>
@@ -63,7 +65,7 @@ const Mailer = () => {
               </MailerForm>
             </Column1>
             <Column2>
-              <Img src={require("../../images/svg-6.svg").default} />
+              <Img src={require("../../images/svg-mail.svg").default} />
             </Column2>
           </MailerRow>
         </MailerWrapper>

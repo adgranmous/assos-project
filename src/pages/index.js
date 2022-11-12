@@ -6,7 +6,6 @@ import InfoSection from "../components/InfoSection/InfoSection";
 import {
   homeObjOne,
   homeObjTwo,
-  homeObjThree,
   homeObjFour,
 } from "../components/InfoSection/Data";
 import TheNavBar from "../components/TheNavbar/TheNavBar";
@@ -19,7 +18,6 @@ function Home() {
       <InfoSection {...homeObjOne} />
       <InfoSection {...homeObjTwo} />
       <Chantiers />
-      <InfoSection {...homeObjThree} />
       <InfoSection {...homeObjFour} />
       <Footer />
     </>
