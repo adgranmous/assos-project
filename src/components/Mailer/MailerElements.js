@@ -4,15 +4,17 @@ export const MailerContainer = styled.div`
   min-height: 100vh;
 `;
 export const MailerWrapper = styled.div`
-  padding: 50px;
+  weight: 100%;
   margin: 50px;
+  background-color: #fff;
 `;
 
 export const MailerRow = styled.div`
   display: flex;
   align-items: center;
+  background-color: #fff;
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 700px) {
     flex-direction: column;
   }
 `;
@@ -46,13 +48,13 @@ export const MailerForm = styled.form`
 
 export const MailerInput = styled.input`
   width: 75%;
-  border: none;
+  border: 2px solid #fff;
   padding: 10px;
   margin-bottom: 25px;
   border-radius: 10px;
 
   :focus {
-    border: 2px solid green;
+    border: 2px solid #01bf71;
     outline: none;
   }
 `;
@@ -63,9 +65,10 @@ export const MailerTextArea = styled.textarea`
   height: 150px;
   border-radius: 10px;
   padding: 10px;
+  border: 2px solid #fff;
 
   :focus {
-    border: 2px solid green;
+    border: 2px solid #01bf71;
     outline: none;
   }
 `;
@@ -98,5 +101,5 @@ border-radius: 50px;
 export const BlackBox = styled.div`
   background-color: #0c0c0c;
   height: 160px;
-  width:100%;
+  width: 100%;
 `;

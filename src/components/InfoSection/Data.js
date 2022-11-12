@@ -41,7 +41,7 @@ export const homeObjFour = {
   topLine: "Ambition",
   headLine: "Une maison des associations",
   description:
-    "Notre souhait est qu’une véritable maison des associations soit mise à la disposition des associations de Pian afin que  les membres puissent se retrouver et disposer d’un vrai local réellement adapté à nos besoins. La commune en a les moyens , il ne manque plus que la volonté.",
+    "Notre souhait est qu’une véritable maison des associations soit mise à la disposition des associations de Pian afin que  les membres puissent se retrouver et disposer d’un vrai local réellement adapté à nos besoins. La commune en a les moyens, il ne manque plus que la volonté.",
   imgStart: true,
   img: require("../../images/svg-cabin.svg").default,
   alt: "soucoupe",
