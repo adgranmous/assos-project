@@ -58,8 +58,7 @@ export const MobileIcon = styled.div`
 export const NavMenu = styled.ul`
   display: flex;
   align-items: center;
-  list-styled: none;
-  texte-align: center;
+  text-align: center;
   margin-right: -22px;
 
   @media screen and (max-width: 700px) {
@@ -88,7 +87,7 @@ export const NavLinks = styled(NavLink)`
   &:hover {
     transition: all 0.2s ease-in-out;
     // color: #01bf71;
-    -webkit-transform: scale(1.15);
+    transform: scale(1.15);
   }
 `;
 
@@ -103,7 +102,6 @@ export const NavBtn = styled.nav`
 
 export const NavBtnLink = styled(NavLink)`
   border-radius: 50px;
-  // background: #01bf71a6;
   white-space: nowrap;
   padding: 10px 22px;
   color: #fff;

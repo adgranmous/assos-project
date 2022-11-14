@@ -35,20 +35,17 @@ export const InfoRow = styled.div`
 `;
 
 export const Column1 = styled.div`
-  // margin-bottom: 15px;
   padding: 0 15px;
   grid-area: col1;
 `;
 
 export const Column2 = styled.div`
-  // margin-bottom: 15px;
   padding: 0 15px;
   grid-area: col2;
 `;
 
 export const TextWrapper = styled.div`
   max-width: 540px;
-  // padding-bottom: 60px;
 `;
 
 export const TopLine = styled.p`
@@ -62,15 +59,15 @@ export const TopLine = styled.p`
 `;
 
 export const Heading = styled.h1`
-margin-bottom:24px;
-font-size: 48px;
-line-height: 1.1;
-font-weight:600;
-color ${({ lightText }) => (lightText ? "#f7f8fa" : "#010606")};
+  margin-bottom: 24px;
+  font-size: 48px;
+  line-height: 1.1;
+  font-weight: 600;
+  color: ${({ lightText }) => (lightText ? "#f7f8fa" : "#010606")};
 
-@media screen and (max-width:480px) {
-    font-size:32px;
-}
+  @media screen and (max-width: 480px) {
+    font-size: 32px;
+  }
 `;
 
 export const Subtitle = styled.p`

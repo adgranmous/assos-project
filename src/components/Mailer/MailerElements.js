@@ -4,8 +4,8 @@ export const MailerContainer = styled.div`
   min-height: 100vh;
 `;
 export const MailerWrapper = styled.div`
-  weight: 100%;
-  margin: 50px;
+  width: 80%;
+  margin: 80px;
   background-color: #fff;
 `;
 
@@ -47,7 +47,7 @@ export const MailerForm = styled.form`
 `;
 
 export const MailerInput = styled.input`
-  width: 75%;
+  width: 25vw;
   border: 2px solid #fff;
   padding: 10px;
   margin-bottom: 25px;
@@ -74,26 +74,25 @@ export const MailerTextArea = styled.textarea`
 `;
 
 export const MailerButton = styled.input`
-width: 120px;
-margin-top: 20px;
+  width: 120px;
+  margin-top: 20px;
 
-border-radius: 50px;
+  border-radius: 50px;
   background: ${({ primary }) => (primary ? "#01BF71" : "#010606")};
   white-space: nozwrap;
   padding: ${({ big }) => (big ? "14px 48px" : "12px 30px")};
   color: ${({ dark }) => (dark ? "#010606" : "#fff")};
-  font-size:${({ fontBig }) => (fontBig ? "20px" : "15px")};
-  outline:none;
-  border:none;
-  cursor:pointer;
-  display:flex;
-  justify-content:center:
-  align-items:
-  center:
-  transition:all 0.2s ease-in-out;
+  font-size: ${({ fontBig }) => (fontBig ? "20px" : "15px")};
+  outline: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s ease-in-out;
 
-  &:hover{
-    transition:all 0.2s ease-in-out;
+  &:hover {
+    transition: all 0.2s ease-in-out;
     background: ${({ primary }) => (primary ? "#fff" : "#01BF71")};
   }
 `;

@@ -1,14 +1,13 @@
 import React from "react";
 import Footer from "../components/Footer/Footer";
-import InfoSection from "../components/InfoSection/InfoSection";
-import { homeObjOne } from "../components/InfoSection/Data";
 import TheNavBar from "../components/TheNavbar/TheNavBar";
+import Gallery from "../components/GalleryComponent/Gallery";
 
 const ChantiersPage = () => {
   return (
     <>
       <TheNavBar />
-      <InfoSection {...homeObjOne} />
+      <Gallery />
       <Footer />
     </>
   );
