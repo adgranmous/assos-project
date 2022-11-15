@@ -47,6 +47,18 @@ function Navbar({ toggle }) {
             <NavMenu>
               <NavItem>
                 <NavLinks
+                  to="/actu"
+                  smooth={true.toString()}
+                  duration={500}
+                  spy={true.toString()}
+                  exact="true"
+                  offset={-80}
+                >
+                  Atcualités
+                </NavLinks>
+              </NavItem>
+              <NavItem>
+                <NavLinks
                   to="/chantiers"
                   smooth={true.toString()}
                   duration={500}

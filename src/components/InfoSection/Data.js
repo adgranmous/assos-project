@@ -49,3 +49,51 @@ export const homeObjFour = {
   primary: false,
   darkText: true,
 };
+
+export const homeObjTemoignage1 = {
+  id: "temoignage1",
+  lightBg: false,
+  lightText: true,
+  lightTextDesc: true,
+  topLine: "témoignage",
+  headLine: "L'école de la fin des années 40 au début des années 50",
+  description: "Jeanine",
+  imgStart: false,
+  img: require("../../images/svg-ecole.svg").default,
+  alt: "ecole",
+  dark: true,
+  primary: true,
+  darkText: false,
+};
+
+export const homeObjTemoignage2 = {
+  id: "temoignage2",
+  lightBg: false,
+  lightText: true,
+  lightTextDesc: true,
+  topLine: "témoignage",
+  headLine: `Souvenir de Pian "Autrefois"`,
+  description: "Jeanine",
+  imgStart: true,
+  img: require("../../images/svg-party.svg").default,
+  alt: "party",
+  dark: true,
+  primary: true,
+  darkText: false,
+};
+
+export const homeObjTemoignage3 = {
+  id: "temoignage3",
+  lightBg: false,
+  lightText: true,
+  lightTextDesc: true,
+  topLine: "témoignage",
+  headLine: "Souvenir de jeunesse",
+  description: "Annie (77ans) et Francine (74ans)",
+  imgStart: false,
+  img: require("../../images/svg-kids.svg").default,
+  alt: "ecole",
+  dark: true,
+  primary: true,
+  darkText: false,
+};

@@ -1,15 +1,13 @@
 import React from "react";
 import Footer from "../components/Footer/Footer";
 import TheNavBar from "../components/TheNavbar/TheNavBar";
-import InfoSection from "../components/InfoSection/InfoSection";
-import { homeObjOne } from "../components/InfoSection/Data";
+import Temoignage from "../components/Temoignage/Temoignage"
 
 const TemoignagesPage = () => {
   return (
     <>
       <TheNavBar />
-      <InfoSection {...homeObjOne} />
-
+      <Temoignage/>
       <Footer />
     </>
   );

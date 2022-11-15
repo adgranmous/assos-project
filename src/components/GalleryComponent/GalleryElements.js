@@ -25,6 +25,14 @@ export const GalleryLDJ = styled.div`
   margin-bottom: 12px;
 `;
 
+export const LdjH1 = styled.h2`
+  padding: 170px 0px 40px;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+`;
+
 export const LDJimg = styled.img`
   width: 100%;
   filter: opacity(0.5);
