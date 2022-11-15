@@ -137,9 +137,9 @@ const Temoignage = () => {
         et allumer le poêle, et le soir il fallait nettoyer la salle de classe.
         <br />
         La journée commençait toujours par de la morale (être poli, aider les
-        gens....)
+        gens...).
         <br />
-        la cour était devant la mairie et l’actuel parking et allait jusqu’à
+        La cour était devant la mairie et l’actuel parking et allait jusqu’à
         l’ancienne salle des fêtes (actuellement la crèche des Doudous). La cour
         était bitumée et fermée par des grilles pointues, il y avait une rangée
         de gros tilleuls, les WC étaient derrière l’école et là où il y a
@@ -155,7 +155,7 @@ const Temoignage = () => {
         emmenaient un panier repas.
         <br />
         Les livres restaient dans le bureau de l’école, elles se souviennent des
-        plumes sergent major pour écrire.
+        plumes sergent-major pour écrire.
         <br />
         La discipline était dure, l’instituteur tirait les cheveux, les oreilles
         et tapait sur les doigts avec une règle, la punition la plus sévère
@@ -186,7 +186,7 @@ const Temoignage = () => {
         Saint-Macaire, l’épicier, le poissonnier et le boulanger.
         <br />
         Le ramoneur passait devant les maisons ainsi que le marchand de peaux de
-        lapins qui se déplaçait en roulotte tirait par un cheval, on mettait les
+        lapins qui se déplaçait en roulotte tirée par un cheval, on mettait les
         peaux de lapins dans la cendre pour les sécher et on les échangeait
         contre principalement de la vaisselle qui était accrochée sur la
         roulotte.
@@ -200,7 +200,7 @@ const Temoignage = () => {
         lapins... Chez Annie il y n’avait pas de vache, elle allait chercher le
         lait chez M. Castandet avant d’aller à l’école.
         <br />
-        Pour cuire il y avait un tournebroche et une cuisinière à bois.
+        Pour cuire, il y avait un tournebroche et une cuisinière à bois.
         <br />
         Il n’y avait pas de frigo, les aliments étaient conservés dans l’eau
         tirée au puits ou conservés dans le sel en confits.
@@ -252,7 +252,7 @@ const Temoignage = () => {
         à la salle des fêtes, l’entrée était payante et avec les sous elles
         allaient à l’océan en bus.
         <br />
-        le cercle des amis réunis (où se trouve le bar) était un lieu très
+        Le cercle des amis réunis (où se trouve le bar) était un lieu très
         fréquenté, surtout le dimanche après la messe.
         <br />
         Le dimanche après midi les jeunes gens se réunissaient devant l’église

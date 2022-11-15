@@ -97,3 +97,20 @@ export const homeObjTemoignage3 = {
   primary: true,
   darkText: false,
 };
+
+export const homeObjActu = {
+  id: "cabane",
+  lightBg: false,
+  lightText: true,
+  lightTextDesc: false,
+  topLine: "Actualités",
+  headLine: "Les Cabanes des vignes",
+  description:
+    "Il est dommageable de constater l’état dans lequel se trouve la plupart des cabanes, laissées à l’abandon par leurs propriétaires.",
+  imgStart: false,
+  img: require("../../images/Cabanes/cabane2.JPG"),
+  alt: "cabane",
+  dark: true,
+  primary: true,
+  darkText: false,
+};

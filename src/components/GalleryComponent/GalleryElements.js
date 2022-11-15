@@ -9,7 +9,7 @@ export const GalleryContainer = styled.div`
   -webkit-column-width: 33%;
   -moz-column-width: 33%;
   column-width: 33%;
-  padding: 0 12px;
+  padding: 0 12px 10px;
 
   @media (max-width: 700px) {
     -webkit-column-count: 2;
